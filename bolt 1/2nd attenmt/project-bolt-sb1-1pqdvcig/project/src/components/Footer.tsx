@@ -1,5 +1,5 @@
-import React from 'react';
-import { Phone, Mail, MapPin, Instagram, Facebook } from 'lucide-react';
+import React from "react";
+import { Phone, Mail, MapPin, Instagram, Facebook } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
@@ -8,17 +8,26 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">90sCake</h3>
-            <p className="mb-4">Bringing you delicious cakes with a touch of 90s nostalgia since 2023.</p>
+            <p className="mb-4">
+              Bringing you delicious cakes with a touch of 90s nostalgia since
+              2023.
+            </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-pink-300 transition-colors duration-200">
+              <a
+                href="#"
+                className="text-white hover:text-pink-300 transition-colors duration-200"
+              >
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-white hover:text-pink-300 transition-colors duration-200">
+              <a
+                href="#"
+                className="text-white hover:text-pink-300 transition-colors duration-200"
+              >
                 <Facebook size={20} />
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <ul className="space-y-2">
@@ -36,7 +45,7 @@ const Footer: React.FC = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-xl font-bold mb-4">Opening Hours</h3>
             <ul className="space-y-1">
@@ -46,7 +55,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-purple-700 mt-8 pt-4 text-center text-sm">
           <p>© {new Date().getFullYear()} 90sCake. All rights reserved.</p>
         </div>

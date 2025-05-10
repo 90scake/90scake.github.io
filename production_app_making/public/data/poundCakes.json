@@ -1,0 +1,20 @@
+[
+  {
+    "id": "poundcake1",
+    "name": "Butter Pound Cake",
+    "description": "Buttery pound cake.",
+    "prices": [
+      { "flavorId": "buttery_pound", "pound": 1, "price": 360 },
+      { "flavorId": "buttery_pound", "pound": 2, "price": 700 }
+    ],
+    "ingredients": [],
+    "notes": [
+      "Can be customized with different colors",
+      "24-hour advance notice required",
+      "30% advance payment required to confirm the order"
+    ],
+    "flavors": [{ "id": "buttery_pound", "name": "Buttery Pound" }],
+    "images": ["/images/poundcake1/image1.jpg"],
+    "category": "poundcake"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "id": "basicCake",
+  "name": "Basic Vanilla Cake",
+  "basePrice": 800,
+  "flavors": [
+    { "id": "vanilla", "name": "Vanilla", "priceAdjustment": 0 },
+    { "id": "chocolate", "name": "Chocolate", "priceAdjustment": 50 }
+  ],
+  "designs": [
+    {
+      "id": "Design-1",
+      "name": "Design-1",
+      "image": "/images/basic/design1.jpg"
+    },
+    {
+      "id": "Design-2",
+      "name": "Design-2",
+      "image": "/images/basic/design2.jpg"
+    }
+  ]
+}
