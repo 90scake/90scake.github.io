@@ -1,0 +1,149 @@
+[
+  {
+    "id": "cake1",
+    "name": "Premium Vanilla With White Chocolate Cake",
+    "description": "A delicious birthday cake with beautiful decorations.",
+    "prices": [
+      { "flavorId": "vanilla", "pound": 1, "price": 900 },
+      { "flavorId": "vanilla", "pound": 2, "price": 1700 },
+      { "flavorId": "chocolate", "pound": 1, "price": 1000 },
+      { "flavorId": "chocolate", "pound": 2, "price": 1900 },
+      { "flavorId": "vanilla_with_butter_cream", "pound": 1, "price": 1200 },
+      { "flavorId": "vanilla_with_butter_cream", "pound": 2, "price": 2300 },
+      { "flavorId": "chocolate_with_butter_cream", "pound": 1, "price": 1200 },
+      { "flavorId": "chocolate_with_butter_cream", "pound": 2, "price": 2300 }
+    ],
+    "ingredients": [],
+    "notes": [
+      "Can be customized with different colors",
+      "24-hour advance notice required",
+      "30% advance payment required to confirm the order"
+    ],
+    "flavors": [
+      { "id": "vanilla", "name": "Vanilla" },
+      { "id": "chocolate", "name": "Chocolate" },
+      {
+        "id": "vanilla_with_butter_cream",
+        "name": "Vanilla with Butter Cream"
+      },
+      {
+        "id": "chocolate_with_butter_cream",
+        "name": "Chocolate with Butter Cream"
+      }
+    ],
+    "images": [
+      "/images/cake1/image1.jpg",
+      "/images/cake1/image2.jpg",
+      "/images/cake1/image3.jpg"
+    ],
+    "category": "birthday"
+  },
+  {
+    "id": "cake2",
+    "name": "Chocolate Cake",
+    "description": "Chocolate cream frosting cake .",
+    "prices": [
+      { "flavorId": "chocolate", "pound": 1, "price": 900 },
+      { "flavorId": "chocolate", "pound": 2, "price": 1700 }
+    ],
+    "ingredients": [],
+    "notes": [
+      "Can be customized with different colors",
+      "24-hour advance notice required",
+      "30% advance payment required to confirm the order"
+    ],
+    "flavors": [{ "id": "chocolate", "name": "Chocolate" }],
+    "images": [
+      "/images/cake2/image1.jpg",
+      "/images/cake2/image2.jpg",
+      "/images/cake2/image3.jpg"
+    ],
+    "category": "chocolate"
+  },
+  {
+    "id": "cake3",
+    "name": "Blueberry Cake",
+    "description": "Blueberry flavorful cake.",
+    "prices": [
+      { "flavorId": "blueberry", "pound": 1, "price": 950 },
+      { "flavorId": "blueberry", "pound": 2, "price": 1800 }
+    ],
+    "ingredients": [],
+    "notes": [
+      "Can be customized with different colors",
+      "24-hour advance notice required",
+      "30% advance payment required to confirm the order"
+    ],
+    "flavors": [{ "id": "blueberry", "name": "Blueberry" }],
+    "images": ["/images/cake3/image1.jpg", "/images/cake3/image2.jpg"],
+    "category": "fruit"
+  },
+  {
+    "id": "cake4",
+    "name": "Swiss Roll Cake",
+    "description": "Diffrent flavor Swiss Roll Cake.",
+    "prices": [
+      { "flavorId": "vanilla", "pound": 1, "price": 450 },
+      { "flavorId": "vanilla", "pound": 2, "price": 800 },
+      { "flavorId": "chocolate", "pound": 1, "price": 450 },
+      { "flavorId": "chocolate", "pound": 2, "price": 800 },
+      { "flavorId": "blueberry", "pound": 1, "price": 450 },
+      { "flavorId": "blueberry", "pound": 2, "price": 800 },
+      { "flavorId": "orange", "pound": 1, "price": 450 },
+      { "flavorId": "orange", "pound": 2, "price": 800 },
+      { "flavorId": "lemon", "pound": 1, "price": 450 },
+      { "flavorId": "lemon", "pound": 2, "price": 800 }
+    ],
+    "ingredients": [],
+    "notes": [
+      "Can be customized with different colors",
+      "24-hour advance notice required",
+      "30% advance payment required to confirm the order"
+    ],
+    "flavors": [
+      { "id": "vanilla", "name": "Vanilla" },
+      { "id": "chocolate", "name": "Chocolate" },
+      { "id": "blueberry", "name": "Blueberry" },
+      { "id": "orange", "name": "Orange" },
+      { "id": "lemon", "name": "Lemon" }
+    ],
+    "images": ["/images/cake4/image1.jpg"],
+    "category": "fruit"
+  },
+  {
+    "id": "cake5",
+    "name": "Lemon Cake",
+    "description": "Lemon Flavor Cake",
+    "prices": [
+      { "flavorId": "lemon", "pound": 1, "price": 900 },
+      { "flavorId": "lemon", "pound": 2, "price": 1800 }
+    ],
+    "ingredients": [],
+    "notes": [
+      "Can be customized with different colors",
+      "24-hour advance notice required",
+      "30% advance payment required to confirm the order"
+    ],
+    "flavors": [{ "id": "lemon", "name": "Lemon" }],
+    "images": ["/images/cake5/image1.jpg"],
+    "category": "fruit"
+  },
+  {
+    "id": "cake6",
+    "name": "butterscotch Cake",
+    "description": "butterscotch cake.",
+    "prices": [
+      { "flavorId": "butterscotch", "pound": 1, "price": 900 },
+      { "flavorId": "butterscotch", "pound": 2, "price": 1800 }
+    ],
+    "ingredients": [],
+    "notes": [
+      "Can be customized with different colors",
+      "24-hour advance notice required",
+      "30% advance payment required to confirm the order"
+    ],
+    "flavors": [{ "id": "butterscotch", "name": "Butterscotch" }],
+    "images": ["/images/cake6/image1.jpg"],
+    "category": "fruit"
+  }
+]
