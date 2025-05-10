@@ -1,0 +1,31 @@
+{
+  "id": "basicCake",
+  "name": "Basic Vanilla Cake",
+  "basePrice": 800,
+  "flavors": [
+    { "id": "vanilla", "name": "Vanilla", "priceAdjustment": 0 },
+    { "id": "chocolate", "name": "Chocolate", "priceAdjustment": 50 }
+  ],
+  "designs": [
+    {
+      "id": "design1",
+      "name": "Simple Floral",
+      "image": "/images/basic/design1.jpg"
+    },
+    {
+      "id": "design2",
+      "name": "Birthday Sprinkles",
+      "image": "/images/basic/design2.jpg"
+    },
+    {
+      "id": "design3",
+      "name": "Elegant Swirls",
+      "image": "/images/basic/design3.jpg"
+    },
+    {
+      "id": "design4",
+      "name": "Chocolate Drip",
+      "image": "/images/basic/design4.jpg"
+    }
+  ]
+}

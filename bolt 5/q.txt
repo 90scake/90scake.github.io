@@ -1,0 +1,14 @@
+I want to make a react app named: '90scake', use javascript and tailwind CSS. the portal should be fully responsive.
+here in the home page, i want to display cake picture and description and price of the cake in a card. the price could be multiple for a cake, like for same cake there could be vanilla flavor and chocolate flavor. 1 pound vanila flavor price could be 800bdt and for chocolate 900 bdt, for two pound the price could be more different. so there price will be array of price list. show the first of the array on card and if users hovers on the price the display other prices on tooltip.
+the picture could be multiple for a cake. if user click on a card then there will be a modal to display the details of it and here display the pictures in sliding window and show othere details bellow it, details like ingredient, notes, flavors, price list and so on. from the details view user can place order by selecting the flavor and pound . based on that show total price in the the modal (can use sliding page inside the modal), need to take contact number and email id and delivary date for the cake order. after confirming the order send a WhatsApp message with all the detail he selected and pictures of page with product id in a Whatsapp number.
+at the home page at the top there will be a text like: basic vanilla cake price 750bdt and click here order now, display a picture of basic vanila cake in that part.
+if user click on it the there should be a form to selected with all basic items and  list of picture to select a basic design, one design will be selected by default. if some one selects the cocolate then the price will be changed to 800. after submitting the form the again will be a WhatsApp message with all detail with selected design pic.
+now at the home page there show be a button to: contact us to order customised cake or pound cake, the WhatsApp message will be opened to contact.
+there will be another section for normal pound cakes
+here take all the data from multiple json files. structure the json file like database schemas. keep pictures of the cake in public folder. each cakes picture shulbe keept in diffrent folders by the name of the id of that cake. and pictures locations save in the json data
+
+use context and local storage to keep the states like if some on filling up anu form the keep the details in the local storage and context. if in between the window gets reloaded the refill the form from the local storage. but after submitting the form clear the local storage. and the will be a clear the form button to clear the form
+
+make different route or tab for 'pound cake' section.
+modals Need to be closed it if user clicks out side the modal. keep the design minimal and easy to use.
+do not use typescript. use javascript or jsx

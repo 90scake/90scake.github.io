@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cake1",
+    "name": "Birthday Blast",
+    "description": "A colorful celebration cake perfect for birthdays with sprinkles and decorative icing.",
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Milk", "Vanilla Extract", "Sprinkles"],
+    "notes": "Available in various colors. Can be customized with names and age.",
+    "images": ["cake1/image1.jpg", "cake1/image2.jpg", "cake1/image3.jpg"],
+    "prices": [
+      {"flavor": "Vanilla", "size": 1, "price": 800},
+      {"flavor": "Vanilla", "size": 2, "price": 1500},
+      {"flavor": "Chocolate", "size": 1, "price": 900},
+      {"flavor": "Chocolate", "size": 2, "price": 1700},
+      {"flavor": "Strawberry", "size": 1, "price": 850},
+      {"flavor": "Strawberry", "size": 2, "price": 1600}
+    ]
+  },
+  {
+    "id": "cake2",
+    "name": "Chocolate Dream",
+    "description": "Rich chocolate cake with chocolate ganache and chocolate shavings for the ultimate chocolate lovers.",
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Cocoa Powder", "Chocolate Chips", "Heavy Cream"],
+    "notes": "Best served slightly chilled. Perfect for chocolate enthusiasts.",
+    "images": ["cake2/image1.jpg", "cake2/image2.jpg"],
+    "prices": [
+      {"flavor": "Dark Chocolate", "size": 1, "price": 950},
+      {"flavor": "Dark Chocolate", "size": 2, "price": 1800},
+      {"flavor": "Milk Chocolate", "size": 1, "price": 900},
+      {"flavor": "Milk Chocolate", "size": 2, "price": 1700},
+      {"flavor": "White Chocolate", "size": 1, "price": 920},
+      {"flavor": "White Chocolate", "size": 2, "price": 1750}
+    ]
+  },
+  {
+    "id": "cake3",
+    "name": "Fruity Paradise",
+    "description": "Light sponge cake topped with fresh seasonal fruits and a clear glaze.",
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Milk", "Vanilla Extract", "Assorted Fruits", "Gelatin"],
+    "notes": "Fruits may vary based on seasonal availability.",
+    "images": ["cake3/image1.jpg", "cake3/image2.jpg", "cake3/image3.jpg"],
+    "prices": [
+      {"flavor": "Mixed Fruit", "size": 1, "price": 880},
+      {"flavor": "Mixed Fruit", "size": 2, "price": 1650},
+      {"flavor": "Berry Special", "size": 1, "price": 950},
+      {"flavor": "Berry Special", "size": 2, "price": 1800}
+    ]
+  },
+  {
+    "id": "cake4",
+    "name": "Classic Vanilla",
+    "description": "Traditional vanilla cake with smooth buttercream frosting - a timeless favorite.",
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Milk", "Premium Vanilla Extract"],
+    "notes": "The basic vanilla cake that started it all. Our most popular cake!",
+    "images": ["cake4/image1.jpg", "cake4/image2.jpg"],
+    "prices": [
+      {"flavor": "Vanilla", "size": 1, "price": 750},
+      {"flavor": "Vanilla", "size": 2, "price": 1400},
+      {"flavor": "Vanilla Bean", "size": 1, "price": 850},
+      {"flavor": "Vanilla Bean", "size": 2, "price": 1600}
+    ]
+  },
+  {
+    "id": "cake5",
+    "name": "Red Velvet Romance",
+    "description": "Velvety smooth red cake with cream cheese frosting - perfect for special occasions.",
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Cocoa Powder", "Red Food Coloring", "Cream Cheese"],
+    "notes": "Our signature red velvet recipe passed down through generations.",
+    "images": ["cake5/image1.jpg", "cake5/image2.jpg"],
+    "prices": [
+      {"flavor": "Classic Red Velvet", "size": 1, "price": 900},
+      {"flavor": "Classic Red Velvet", "size": 2, "price": 1700},
+      {"flavor": "Deluxe Red Velvet", "size": 1, "price": 1000},
+      {"flavor": "Deluxe Red Velvet", "size": 2, "price": 1900}
+    ]
+  },
+  {
+    "id": "cake6",
+    "name": "90s Throwback",
+    "description": "Neon-colored funfetti cake with bright frosting and pop rock sprinkles - a blast from the past!",
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Milk", "Vanilla Extract", "Colorful Sprinkles", "Pop Rocks"],
+    "notes": "A totally radical cake that takes you back to the 90s!",
+    "images": ["cake6/image1.jpg", "cake6/image2.jpg", "cake6/image3.jpg"],
+    "prices": [
+      {"flavor": "Funfetti", "size": 1, "price": 920},
+      {"flavor": "Funfetti", "size": 2, "price": 1750},
+      {"flavor": "Tie-Dye", "size": 1, "price": 950},
+      {"flavor": "Tie-Dye", "size": 2, "price": 1800}
+    ]
+  }
+]

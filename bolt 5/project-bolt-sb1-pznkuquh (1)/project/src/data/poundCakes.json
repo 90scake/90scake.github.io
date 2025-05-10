@@ -1,0 +1,82 @@
+[
+  {
+    "id": "classic-pound",
+    "name": "Classic Pound Cake",
+    "description": "Traditional dense and buttery pound cake with a golden crust.",
+    "featured": true,
+    "category": "pound",
+    "prices": [
+      { "flavor": "Vanilla", "pounds": 1, "price": 700 },
+      { "flavor": "Vanilla", "pounds": 2, "price": 1300 },
+      { "flavor": "Lemon", "pounds": 1, "price": 750 },
+      { "flavor": "Lemon", "pounds": 2, "price": 1400 }
+    ],
+    "ingredients": "Flour, butter, sugar, eggs, vanilla extract, lemon zest (for lemon flavor)",
+    "notes": "Our traditional pound cake follows a century-old recipe.",
+    "images": [
+      "/cakes/classic-pound/1.jpg",
+      "/cakes/classic-pound/2.jpg"
+    ],
+    "allergens": "Contains: dairy, eggs, gluten"
+  },
+  {
+    "id": "marble-pound",
+    "name": "Marble Pound Cake",
+    "description": "Beautiful swirls of vanilla and chocolate in a rich pound cake.",
+    "featured": true,
+    "category": "pound",
+    "prices": [
+      { "flavor": "Classic Marble", "pounds": 1, "price": 750 },
+      { "flavor": "Classic Marble", "pounds": 2, "price": 1400 },
+      { "flavor": "Triple Chocolate", "pounds": 1, "price": 800 },
+      { "flavor": "Triple Chocolate", "pounds": 2, "price": 1500 }
+    ],
+    "ingredients": "Flour, butter, sugar, eggs, vanilla extract, cocoa powder, chocolate chips (for triple chocolate)",
+    "notes": "The perfect balance of vanilla and chocolate flavors.",
+    "images": [
+      "/cakes/marble-pound/1.jpg",
+      "/cakes/marble-pound/2.jpg"
+    ],
+    "allergens": "Contains: dairy, eggs, gluten"
+  },
+  {
+    "id": "orange-almond",
+    "name": "Orange Almond Pound Cake",
+    "description": "Citrus-infused pound cake with toasted almonds and orange glaze.",
+    "featured": false,
+    "category": "pound",
+    "prices": [
+      { "flavor": "Orange Almond", "pounds": 1, "price": 800 },
+      { "flavor": "Orange Almond", "pounds": 2, "price": 1500 },
+      { "flavor": "Orange Cranberry", "pounds": 1, "price": 850 },
+      { "flavor": "Orange Cranberry", "pounds": 2, "price": 1600 }
+    ],
+    "ingredients": "Flour, butter, sugar, eggs, orange zest, orange juice, almond extract, toasted almonds, dried cranberries (for orange cranberry)",
+    "notes": "A refreshing twist on traditional pound cake with bright citrus flavor.",
+    "images": [
+      "/cakes/orange-almond/1.jpg",
+      "/cakes/orange-almond/2.jpg"
+    ],
+    "allergens": "Contains: dairy, eggs, gluten, nuts (almonds)"
+  },
+  {
+    "id": "chocolate-chip",
+    "name": "Chocolate Chip Pound Cake",
+    "description": "Buttery pound cake loaded with chocolate chips throughout.",
+    "featured": false,
+    "category": "pound",
+    "prices": [
+      { "flavor": "Chocolate Chip", "pounds": 1, "price": 800 },
+      { "flavor": "Chocolate Chip", "pounds": 2, "price": 1500 },
+      { "flavor": "Double Chocolate", "pounds": 1, "price": 850 },
+      { "flavor": "Double Chocolate", "pounds": 2, "price": 1600 }
+    ],
+    "ingredients": "Flour, butter, sugar, eggs, vanilla extract, chocolate chips, cocoa powder (for double chocolate)",
+    "notes": "A chocolate lover's dream with chocolate in every bite.",
+    "images": [
+      "/cakes/chocolate-chip/1.jpg",
+      "/cakes/chocolate-chip/2.jpg"
+    ],
+    "allergens": "Contains: dairy, eggs, gluten"
+  }
+]

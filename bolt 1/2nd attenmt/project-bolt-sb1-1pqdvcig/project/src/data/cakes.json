@@ -1,0 +1,69 @@
+{
+  "regular": [
+    {
+      "id": "chocolate-truffle",
+      "productId": "CT001",
+      "name": "Chocolate Truffle Cake",
+      "description": "A rich, decadent chocolate cake layered with chocolate ganache and decorated with chocolate shavings.",
+      "category": "Chocolate",
+      "images": ["/cakes/chocolate-truffle/main.jpg", "/cakes/chocolate-truffle/slice.jpg", "/cakes/chocolate-truffle/top-view.jpg"],
+      "prices": [
+        { "flavor": "Dark Chocolate", "pound": 1, "price": 900 },
+        { "flavor": "Dark Chocolate", "pound": 2, "price": 1700 },
+        { "flavor": "Milk Chocolate", "pound": 1, "price": 850 },
+        { "flavor": "Milk Chocolate", "pound": 2, "price": 1600 }
+      ],
+      "ingredients": [
+        "Chocolate sponge cake",
+        "Dark chocolate ganache",
+        "Chocolate shavings",
+        "Cocoa powder"
+      ],
+      "notes": "Store in a cool place. Best consumed within 2 days."
+    },
+    {
+      "id": "red-velvet",
+      "productId": "RV001",
+      "name": "Red Velvet Cake",
+      "description": "Classic red velvet cake with cream cheese frosting.",
+      "category": "Specialty",
+      "images": ["/cakes/red-velvet/main.jpg", "/cakes/red-velvet/slice.jpg", "/cakes/red-velvet/top.jpg"],
+      "prices": [
+        { "flavor": "Classic", "pound": 1, "price": 850 },
+        { "flavor": "Classic", "pound": 2, "price": 1600 }
+      ],
+      "ingredients": [
+        "Red velvet sponge",
+        "Cream cheese frosting",
+        "Vanilla extract",
+        "Cocoa powder"
+      ],
+      "notes": "Keep refrigerated. Best consumed within 3 days."
+    }
+  ],
+  "pound": [
+    {
+      "id": "classic-pound",
+      "productId": "PC001",
+      "name": "Classic Pound Cake",
+      "description": "Traditional pound cake made with premium ingredients.",
+      "category": "Pound Cake",
+      "images": ["/cakes/vanilla-berry/main.jpg", "/cakes/vanilla-berry/slice.jpg", "/cakes/vanilla-berry/berries.jpg"],
+      "prices": [
+        { "flavor": "Plain", "size": "6 inch", "price": 400 },
+        { "flavor": "Plain", "size": "8 inch", "price": 600 },
+        { "flavor": "Morobba", "size": "6 inch", "price": 450 },
+        { "flavor": "Morobba", "size": "8 inch", "price": 650 },
+        { "flavor": "Fruit", "size": "6 inch", "price": 500 },
+        { "flavor": "Fruit", "size": "8 inch", "price": 700 }
+      ],
+      "ingredients": [
+        "Premium butter",
+        "Farm fresh eggs",
+        "Pure vanilla extract",
+        "All-purpose flour"
+      ],
+      "notes": "Perfect for tea time. Stays fresh for up to 5 days when properly stored."
+    }
+  ]
+}

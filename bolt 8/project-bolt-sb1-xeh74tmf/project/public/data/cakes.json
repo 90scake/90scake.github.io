@@ -1,0 +1,89 @@
+[
+  {
+    "id": "cake1",
+    "name": "Classic Birthday Cake",
+    "description": "A delicious and moist classic birthday cake with beautiful decorations and sprinkles.",
+    "prices": [
+      {"flavorId": "vanilla", "pound": 1, "price": 800},
+      {"flavorId": "vanilla", "pound": 2, "price": 1500},
+      {"flavorId": "chocolate", "pound": 1, "price": 900},
+      {"flavorId": "chocolate", "pound": 2, "price": 1700}
+    ],
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Milk", "Baking powder", "Vanilla extract"],
+    "notes": ["Can be customized with different colors", "24-hour advance notice required"],
+    "flavors": [
+      {"id": "vanilla", "name": "Vanilla"},
+      {"id": "chocolate", "name": "Chocolate"}
+    ],
+    "images": ["/images/cake1/image1.jpg", "/images/cake1/image2.jpg", "/images/cake1/image3.jpg"],
+    "category": "birthday"
+  },
+  {
+    "id": "cake2",
+    "name": "Chocolate Truffle Cake",
+    "description": "Rich chocolate truffle cake with smooth ganache and chocolate shavings.",
+    "prices": [
+      {"flavorId": "darkchocolate", "pound": 1, "price": 950},
+      {"flavorId": "darkchocolate", "pound": 2, "price": 1800},
+      {"flavorId": "whitechocolate", "pound": 1, "price": 900},
+      {"flavorId": "whitechocolate", "pound": 2, "price": 1700}
+    ],
+    "ingredients": ["Dark chocolate", "Cocoa powder", "Flour", "Sugar", "Eggs", "Butter", "Heavy cream"],
+    "notes": ["Best served at room temperature", "Store in refrigerator"],
+    "flavors": [
+      {"id": "darkchocolate", "name": "Dark Chocolate"},
+      {"id": "whitechocolate", "name": "White Chocolate"}
+    ],
+    "images": ["/images/cake2/image1.jpg", "/images/cake2/image2.jpg"],
+    "category": "chocolate"
+  },
+  {
+    "id": "cake3",
+    "name": "Strawberry Shortcake",
+    "description": "Light vanilla sponge cake with fresh strawberries and whipped cream.",
+    "prices": [
+      {"flavorId": "vanilla", "pound": 1, "price": 850},
+      {"flavorId": "vanilla", "pound": 2, "price": 1600}
+    ],
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Fresh strawberries", "Whipped cream", "Vanilla extract"],
+    "notes": ["Seasonal availability for fresh strawberries", "Best consumed within 24 hours"],
+    "flavors": [
+      {"id": "vanilla", "name": "Vanilla"}
+    ],
+    "images": ["/images/cake3/image1.jpg", "/images/cake3/image2.jpg", "/images/cake3/image3.jpg"],
+    "category": "fruit"
+  },
+  {
+    "id": "poundcake1",
+    "name": "Classic Pound Cake",
+    "description": "Traditional dense and buttery pound cake with a golden crust.",
+    "prices": [
+      {"flavorId": "vanilla", "pound": 1, "price": 750},
+      {"flavorId": "lemon", "pound": 1, "price": 800}
+    ],
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Vanilla extract"],
+    "notes": ["Stays fresh for up to 5 days", "Perfect with tea or coffee"],
+    "flavors": [
+      {"id": "vanilla", "name": "Vanilla"},
+      {"id": "lemon", "name": "Lemon"}
+    ],
+    "images": ["/images/poundcake1/image1.jpg", "/images/poundcake1/image2.jpg"],
+    "category": "poundcake"
+  },
+  {
+    "id": "poundcake2",
+    "name": "Chocolate Marble Pound Cake",
+    "description": "Beautiful marbled pound cake with vanilla and chocolate swirls.",
+    "prices": [
+      {"flavorId": "marble", "pound": 1, "price": 800},
+      {"flavorId": "marble", "pound": 2, "price": 1500}
+    ],
+    "ingredients": ["Flour", "Sugar", "Eggs", "Butter", "Cocoa powder", "Vanilla extract"],
+    "notes": ["Beautiful presentation when sliced", "Great for gifting"],
+    "flavors": [
+      {"id": "marble", "name": "Marble"}
+    ],
+    "images": ["/images/poundcake2/image1.jpg", "/images/poundcake2/image2.jpg"],
+    "category": "poundcake"
+  }
+]

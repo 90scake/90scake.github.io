@@ -1,0 +1,26 @@
+[
+  {
+    "id": "design1",
+    "name": "Classic Round",
+    "image": "designs/classic-round.jpg",
+    "description": "Simple round cake with smooth frosting"
+  },
+  {
+    "id": "design2",
+    "name": "Floral Delight",
+    "image": "designs/floral.jpg",
+    "description": "Decorated with buttercream flowers"
+  },
+  {
+    "id": "design3",
+    "name": "Chocolate Drip",
+    "image": "designs/chocolate-drip.jpg",
+    "description": "Topped with chocolate ganache drip"
+  },
+  {
+    "id": "design4",
+    "name": "Rainbow Layers",
+    "image": "designs/rainbow.jpg",
+    "description": "Colorful rainbow layers inside"
+  }
+]

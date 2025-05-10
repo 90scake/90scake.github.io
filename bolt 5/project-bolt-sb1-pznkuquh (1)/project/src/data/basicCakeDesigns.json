@@ -1,0 +1,26 @@
+[
+  {
+    "id": "basic-simple",
+    "name": "Simple Elegance",
+    "description": "Clean, smooth frosting with minimal decorations",
+    "image": "/cakes/basic-designs/simple.jpg"
+  },
+  {
+    "id": "basic-floral",
+    "name": "Floral Touch",
+    "description": "Simple buttercream flowers around the edge",
+    "image": "/cakes/basic-designs/floral.jpg"
+  },
+  {
+    "id": "basic-sprinkles",
+    "name": "Colorful Sprinkles",
+    "description": "Colorful sprinkles covering the sides or top",
+    "image": "/cakes/basic-designs/sprinkles.jpg"
+  },
+  {
+    "id": "basic-drip",
+    "name": "Classic Drip",
+    "description": "Smooth frosting with a chocolate or colored drip effect",
+    "image": "/cakes/basic-designs/drip.jpg"
+  }
+]

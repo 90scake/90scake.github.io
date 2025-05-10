@@ -1,0 +1,121 @@
+[
+  {
+    "id": "chocolate-truffle",
+    "name": "Chocolate Truffle Cake",
+    "description": "A rich, decadent chocolate cake layered with chocolate ganache and decorated with chocolate shavings.",
+    "category": "Chocolate",
+    "images": ["main.jpg", "slice.jpg", "top-view.jpg"],
+    "prices": [
+      { "flavor": "Dark Chocolate", "pound": 1, "price": 900 },
+      { "flavor": "Dark Chocolate", "pound": 2, "price": 1700 },
+      { "flavor": "Milk Chocolate", "pound": 1, "price": 850 },
+      { "flavor": "Milk Chocolate", "pound": 2, "price": 1600 }
+    ],
+    "ingredients": [
+      "Chocolate sponge cake",
+      "Dark chocolate ganache",
+      "Chocolate shavings",
+      "Cocoa powder"
+    ],
+    "notes": "Store in a cool place. Best consumed within 2 days."
+  },
+  {
+    "id": "vanilla-berry",
+    "name": "Vanilla Berry Delight",
+    "description": "Light vanilla sponge cake topped with fresh seasonal berries and a hint of lemon zest.",
+    "category": "Fruit",
+    "images": ["main.jpg", "slice.jpg", "berries.jpg"],
+    "prices": [
+      { "flavor": "Vanilla", "pound": 1, "price": 850 },
+      { "flavor": "Vanilla", "pound": 2, "price": 1550 },
+      { "flavor": "Lemon", "pound": 1, "price": 900 },
+      { "flavor": "Lemon", "pound": 2, "price": 1650 }
+    ],
+    "ingredients": [
+      "Vanilla sponge cake",
+      "Fresh strawberries, blueberries, and raspberries",
+      "Whipped cream",
+      "Lemon zest"
+    ],
+    "notes": "Refrigerate immediately. Best consumed on the same day for freshest berries."
+  },
+  {
+    "id": "red-velvet",
+    "name": "Classic Red Velvet",
+    "description": "Traditional red velvet cake with a subtle chocolate flavor, topped with cream cheese frosting.",
+    "category": "Classic",
+    "images": ["main.jpg", "slice.jpg", "top.jpg"],
+    "prices": [
+      { "flavor": "Classic", "pound": 1, "price": 950 },
+      { "flavor": "Classic", "pound": 2, "price": 1750 },
+      { "flavor": "With Chocolate Chips", "pound": 1, "price": 1000 },
+      { "flavor": "With Chocolate Chips", "pound": 2, "price": 1850 }
+    ],
+    "ingredients": [
+      "Red velvet cake",
+      "Cream cheese frosting",
+      "Vanilla extract",
+      "Cocoa powder"
+    ]
+  },
+  {
+    "id": "butterscotch",
+    "name": "Butterscotch Bliss",
+    "description": "Soft vanilla cake with rich butterscotch flavor, topped with caramel drizzle and butterscotch chips.",
+    "category": "Sweet",
+    "images": ["main.jpg", "slice.jpg", "top-view.jpg"],
+    "prices": [
+      { "flavor": "Butterscotch", "pound": 1, "price": 800 },
+      { "flavor": "Butterscotch", "pound": 2, "price": 1500 },
+      { "flavor": "Caramel Butterscotch", "pound": 1, "price": 850 },
+      { "flavor": "Caramel Butterscotch", "pound": 2, "price": 1600 }
+    ],
+    "ingredients": [
+      "Vanilla sponge cake",
+      "Butterscotch flavoring",
+      "Caramel sauce",
+      "Butterscotch chips"
+    ]
+  },
+  {
+    "id": "black-forest",
+    "name": "Black Forest Gateau",
+    "description": "Classic German cake with layers of chocolate sponge, cherries, and whipped cream, decorated with chocolate shavings.",
+    "category": "Classic",
+    "images": ["main.jpg", "slice.jpg", "top.jpg"],
+    "prices": [
+      { "flavor": "Classic Cherry", "pound": 1, "price": 950 },
+      { "flavor": "Classic Cherry", "pound": 2, "price": 1750 },
+      { "flavor": "Premium (with kirsch)", "pound": 1, "price": 1100 },
+      { "flavor": "Premium (with kirsch)", "pound": 2, "price": 2000 }
+    ],
+    "ingredients": [
+      "Chocolate sponge cake",
+      "Cherries",
+      "Whipped cream",
+      "Cherry syrup",
+      "Dark chocolate shavings"
+    ],
+    "notes": "Contains alcohol in premium version. Keep refrigerated."
+  },
+  {
+    "id": "pineapple-upside",
+    "name": "Pineapple Upside Down",
+    "description": "Traditional cake with caramelized pineapple rings on top, baked with a moist butter cake beneath.",
+    "category": "Fruit",
+    "images": ["main.jpg", "slice.jpg", "top-view.jpg"],
+    "prices": [
+      { "flavor": "Classic", "pound": 1, "price": 800 },
+      { "flavor": "Classic", "pound": 2, "price": 1500 },
+      { "flavor": "With Cherries", "pound": 1, "price": 850 },
+      { "flavor": "With Cherries", "pound": 2, "price": 1600 }
+    ],
+    "ingredients": [
+      "Butter cake",
+      "Pineapple rings",
+      "Brown sugar",
+      "Caramel",
+      "Maraschino cherries (optional)"
+    ]
+  }
+]

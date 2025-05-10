@@ -1,0 +1,84 @@
+[
+  {
+    "id": "chocolate-dream",
+    "name": "Chocolate Dream Cake",
+    "description": "Rich chocolate cake layered with chocolate ganache and decorated with chocolate shavings.",
+    "featured": true,
+    "category": "specialty",
+    "prices": [
+      { "flavor": "Dark Chocolate", "pounds": 1, "price": 900 },
+      { "flavor": "Dark Chocolate", "pounds": 2, "price": 1700 },
+      { "flavor": "Milk Chocolate", "pounds": 1, "price": 850 },
+      { "flavor": "Milk Chocolate", "pounds": 2, "price": 1600 }
+    ],
+    "ingredients": "Flour, cocoa powder, sugar, eggs, butter, milk, dark chocolate, vanilla extract",
+    "notes": "Our bestselling chocolate cake that's perfect for chocolate lovers.",
+    "images": [
+      "/cakes/chocolate-dream/1.jpg",
+      "/cakes/chocolate-dream/2.jpg",
+      "/cakes/chocolate-dream/3.jpg"
+    ],
+    "allergens": "Contains: dairy, eggs, gluten"
+  },
+  {
+    "id": "red-velvet",
+    "name": "Red Velvet Delight",
+    "description": "Classic red velvet cake with cream cheese frosting.",
+    "featured": true,
+    "category": "specialty",
+    "prices": [
+      { "flavor": "Classic", "pounds": 1, "price": 950 },
+      { "flavor": "Classic", "pounds": 2, "price": 1800 },
+      { "flavor": "With Berries", "pounds": 1, "price": 1050 },
+      { "flavor": "With Berries", "pounds": 2, "price": 2000 }
+    ],
+    "ingredients": "Flour, cocoa powder, red food coloring, buttermilk, sugar, eggs, butter, cream cheese, vanilla extract",
+    "notes": "A perfect blend of mild chocolate flavor with velvety smooth texture.",
+    "images": [
+      "/cakes/red-velvet/1.jpg",
+      "/cakes/red-velvet/2.jpg"
+    ],
+    "allergens": "Contains: dairy, eggs, gluten"
+  },
+  {
+    "id": "strawberry-bliss",
+    "name": "Strawberry Bliss Cake",
+    "description": "Light vanilla cake filled with fresh strawberry compote and topped with strawberry buttercream.",
+    "featured": true,
+    "category": "specialty",
+    "prices": [
+      { "flavor": "Fresh Strawberry", "pounds": 1, "price": 1000 },
+      { "flavor": "Fresh Strawberry", "pounds": 2, "price": 1900 },
+      { "flavor": "Strawberry Cheese", "pounds": 1, "price": 1100 },
+      { "flavor": "Strawberry Cheese", "pounds": 2, "price": 2100 }
+    ],
+    "ingredients": "Flour, sugar, eggs, butter, milk, vanilla extract, fresh strawberries, strawberry puree",
+    "notes": "Made with seasonal fresh strawberries for the best flavor.",
+    "images": [
+      "/cakes/strawberry-bliss/1.jpg",
+      "/cakes/strawberry-bliss/2.jpg",
+      "/cakes/strawberry-bliss/3.jpg"
+    ],
+    "allergens": "Contains: dairy, eggs, gluten"
+  },
+  {
+    "id": "mango-tango",
+    "name": "Mango Tango Cake",
+    "description": "Moist vanilla cake with fresh mango filling and mango buttercream frosting.",
+    "featured": false,
+    "category": "specialty",
+    "prices": [
+      { "flavor": "Pure Mango", "pounds": 1, "price": 1050 },
+      { "flavor": "Pure Mango", "pounds": 2, "price": 2000 },
+      { "flavor": "Mango Coconut", "pounds": 1, "price": 1100 },
+      { "flavor": "Mango Coconut", "pounds": 2, "price": 2100 }
+    ],
+    "ingredients": "Flour, sugar, eggs, butter, milk, vanilla extract, fresh mangoes, mango puree, coconut milk (for mango coconut flavor)",
+    "notes": "Seasonal specialty available during mango season.",
+    "images": [
+      "/cakes/mango-tango/1.jpg",
+      "/cakes/mango-tango/2.jpg"
+    ],
+    "allergens": "Contains: dairy, eggs, gluten. Mango coconut flavor contains coconut."
+  }
+]

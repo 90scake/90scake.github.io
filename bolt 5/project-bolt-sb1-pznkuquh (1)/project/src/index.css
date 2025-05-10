@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FDF6E3;
+  color: #374151;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.2;
+}
+
+p, span, div {
+  line-height: 1.5;
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+/* Tooltip Styles */
+.tooltip {
+  @apply invisible absolute z-10 rounded bg-secondary-700 text-white px-2 py-1 text-sm whitespace-nowrap shadow-lg;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible;
+  opacity: 1;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  @apply fixed inset-0 bg-black bg-opacity-40 backdrop-blur-sm z-50 flex justify-center items-center p-4;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.modal-content {
+  @apply bg-white rounded-lg shadow-lg max-w-3xl mx-auto overflow-hidden w-full max-h-[90vh] overflow-y-auto;
+  animation: slideUp 0.3s ease-out;
+}
+
+/* Button Styles */
+.btn {
+  @apply px-4 py-2 rounded-md transition-all duration-200 font-medium text-center inline-block;
+}
+
+.btn-primary {
+  @apply bg-primary-500 hover:bg-primary-600 text-white shadow-sm;
+}
+
+.btn-secondary {
+  @apply bg-secondary-100 hover:bg-secondary-200 text-secondary-800 border border-secondary-300;
+}
+
+.btn-outline {
+  @apply border border-primary-500 text-primary-500 hover:bg-primary-50;
+}
+
+/* Card Styles */
+.cake-card {
+  @apply bg-white rounded-lg overflow-hidden shadow-cake hover:shadow-cake-hover transition-all duration-300 h-full;
+}
+
+/* Slick Carousel Customization */
+.slick-prev, .slick-next {
+  @apply z-10 w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center;
+}
+
+.slick-prev:before, .slick-next:before {
+  @apply text-secondary-800 opacity-90;
+}
+
+.slick-dots li button:before {
+  @apply text-primary-400 opacity-70;
+}
+
+.slick-dots li.slick-active button:before {
+  @apply text-primary-600 opacity-100;
+}
