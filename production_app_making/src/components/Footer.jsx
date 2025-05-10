@@ -1,5 +1,5 @@
 import { Cake, Phone, Mail, Instagram, Facebook } from "lucide-react";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-purple-900 text-white pt-12 pb-6">
@@ -20,24 +20,25 @@ const Footer = () => {
                 className="text-gray-100 hover:text-pink-200 transition-colors duration-200"
               >
                 <Facebook size={20} />
+                Facebook Page
               </a>
             </div>
           </div>
 
           <div className="flex flex-col space-y-4">
             <h3 className="text-lg font-semibold text-gray-100">Quick Links</h3>
-            <a
-              href="#"
+            <Link
+              to="#"
               className="text-gray-100 hover:text-pink-100 transition-colors duration-200"
             >
               Home
-            </a>
-            <a
-              href="/pound-cakes"
+            </Link>
+            <Link
+              to="/pound-cakes"
               className="text-gray-100 hover:text-pink-100 transition-colors duration-200"
             >
               Pound Cakes
-            </a>
+            </Link>
             <button
               onClick={() => {
                 // Send custom cake inquiry
