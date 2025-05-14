@@ -116,7 +116,7 @@
     "description": "Lemon Flavor Cake",
     "prices": [
       { "flavorId": "lemon", "pound": 1, "price": 900 },
-      { "flavorId": "lemon", "pound": 2, "price": 1800 }
+      { "flavorId": "lemon", "pound": 2, "price": 1700 }
     ],
     "ingredients": [],
     "notes": [
@@ -134,7 +134,7 @@
     "description": "butterscotch cake.",
     "prices": [
       { "flavorId": "butterscotch", "pound": 1, "price": 900 },
-      { "flavorId": "butterscotch", "pound": 2, "price": 1800 }
+      { "flavorId": "butterscotch", "pound": 2, "price": 1700 }
     ],
     "ingredients": [],
     "notes": [
@@ -144,6 +144,28 @@
     ],
     "flavors": [{ "id": "butterscotch", "name": "Butterscotch" }],
     "images": ["/images/cake6/image1.jpg"],
+    "category": "fruit"
+  },
+  {
+    "id": "cake7",
+    "name": "Orange Cake",
+    "description": "Orange Flavor cake.",
+    "prices": [
+      { "flavorId": "orange", "pound": 1, "price": 900 },
+      { "flavorId": "orange", "pound": 2, "price": 1700 }
+    ],
+    "ingredients": [],
+    "notes": [
+      "Can be customized with different colors",
+      "24-hour advance notice required",
+      "30% advance payment required to confirm the order"
+    ],
+    "flavors": [{ "id": "orange", "name": "Orange" }],
+    "images": [
+      "/images/cake7/image1.jpg",
+      "/images/cake7/image2.jpg",
+      "/images/cake7/image3.jpg"
+    ],
     "category": "fruit"
   }
 ]

@@ -16,5 +16,27 @@
     "flavors": [{ "id": "buttery_pound", "name": "Buttery Pound" }],
     "images": ["/images/poundcake1/image1.jpg"],
     "category": "poundcake"
+  },
+  {
+    "id": "poundcake2",
+    "name": "Butter Chocolate Cake",
+    "description": "Buttery Chocolate Pound cake.",
+    "prices": [
+      { "flavorId": "chocolate_pound", "pound": 1, "price": 380 },
+      { "flavorId": "chocolate_pound", "pound": 2, "price": 750 }
+    ],
+    "ingredients": [],
+    "notes": [
+      "Can be customized with different colors",
+      "24-hour advance notice required",
+      "30% advance payment required to confirm the order"
+    ],
+    "flavors": [{ "id": "chocolate_pound", "name": "Chocolate Pound" }],
+    "images": [
+      "/images/poundcake2/image1.jpg",
+      "/images/poundcake2/image2.jpg",
+      "/images/poundcake2/image3.jpg"
+    ],
+    "category": "poundcake"
   }
 ]
